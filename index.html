@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Working start for add to cart single product -->
+    <div class="main">
+        <div>
+            <img width="100" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8&w=1000&q=80" alt="" id="product">
+            <h5 id="name">Branded Shoes</h5>
+            <span id="price">Rs. 3000</span>
+            <br>
+            <button onclick="addtocart()">Add to cart</button>
+        </div>
+        <div class="cart" id="cart">
+            <div>
+                <h2>Quick Cart Feature</h2>
+                <img width="100" src="" alt="" id="cart-product">
+                <h5 id="cart-name"></h5>
+                <span id="cart-price"></span>    
+            </div>
+        </div>
+    </div>
+    <!-- Working end for add to cart single product -->
+
+    <!-- Working start for adding nodes using js -->
+    
+    <div id="add-elem"></div>
+
+    <!-- Working end for adding nodes using js -->
+
+    <!-- Working start for messages sending -->
+
+    <div id="messages">
+
+    </div>
+
+    <input type="text" id="val">
+    <button onclick="addmsg()">send</button>
+    <!-- Working end for messages sending -->
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
